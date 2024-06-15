@@ -1,6 +1,6 @@
 # 修改内置tomcat的端口号和上下文根
 server:
-  port: 8088
+  port: 8090
   servlet:
     context-path: /
 
@@ -11,8 +11,9 @@ spring:
     url: jdbc:mysql://localhost:3306/login?serverTimezone=GMT&allowPublicKeyRetrieval=true&useSSL=false&characterEncoding=utf8
     username: root
     password: hexi1998
-  # Redis
-  data:
-    redis:
-      host: localhost
-      port: 6379
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
