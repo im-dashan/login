@@ -19,7 +19,7 @@
         </jdbcConnection>
         <!-- 生成 model 类， targetPackage 指定 model 类的包名， targetProject 指定
         生成的 model 放在 eclipse 的哪个工程下面-->
-        <javaModelGenerator targetPackage="com.dashan.login.model"
+        <javaModelGenerator targetPackage="com.dashan.login.entity"
                             targetProject="D:\code\login\src\main\java">
             <property name="enableSubPackages" value="false" />
             <property name="trimStrings" value="false" />
