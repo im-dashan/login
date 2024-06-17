@@ -40,7 +40,7 @@
 
 
         <!-- 数据库表名及对应的 Java 模型类名 -->
-        <table tableName="b_bid_info" domainObjectName="BidInfo"
+        <table tableName="roles" domainObjectName="Roles"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
@@ -48,7 +48,7 @@
                selectByExampleQueryId="false"/>
 
         <!-- 数据库表名及对应的 Java 模型类名 -->
-        <table tableName="b_income_record" domainObjectName="IncomeRecord"
+        <table tableName="user_roles" domainObjectName="UserRoles"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
@@ -56,7 +56,7 @@
                selectByExampleQueryId="false"/>
 
         <!-- 数据库表名及对应的 Java 模型类名 -->
-        <table tableName="b_loan_info" domainObjectName="LoanInfo"
+        <table tableName="users" domainObjectName="Users"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
