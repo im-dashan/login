@@ -8,6 +8,7 @@
         <version>3.3.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.dashan.login</groupId>
     <artifactId>login</artifactId>
     <version>1.0.0</version>
@@ -16,6 +17,7 @@
     <properties>
         <java.version>21</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -56,13 +58,12 @@
                 <version>1.4.2</version>
                 <configuration>
                     <!--配置文件的位置-->
-                    <configurationFile>GeneratorMapper.xml</configurationFile>
+                    <configurationFile>src\main\resources\GeneratorMapper.xml</configurationFile>
                     <verbose>true</verbose>
                     <overwrite>true</overwrite>
                 </configuration>
             </plugin>
         </plugins>
-
         <!--指定对mapper.xml进行编译-->
         <resources>
             <resource>

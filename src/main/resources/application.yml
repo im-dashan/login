@@ -20,6 +20,7 @@ spring:
   banner:
     location: classpath:banner.txt
 
+# swagger v3配置
 springdoc:
   api-docs:
     path: /v3/api-docs
