@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-public class OpenAPIController {
+public class OpenApiController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, World!";
+        return "欢迎使用swagger-ui!";
     }
 }

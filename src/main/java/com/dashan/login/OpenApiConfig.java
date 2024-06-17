@@ -11,9 +11,9 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("Spring Boot REST API")
-                        .version("1.0")
-                        .description("Spring Boot REST API Documentation"));
+                .info(new Info().title("login登录注册api")
+                        .version("1.0.1")
+                        .description("提供所有登录注册api"));
     }
 
     @Bean
