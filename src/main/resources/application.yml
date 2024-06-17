@@ -4,13 +4,19 @@ server:
   servlet:
     context-path: /
 
-# 数据库连接
 spring:
+  # 数据库连接
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/login?serverTimezone=GMT&allowPublicKeyRetrieval=true&useSSL=false&characterEncoding=utf8
     username: root
     password: hexi1998
+  # redis连接信息
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  # springboot启动logo
   banner:
     location: classpath:banner.txt
 
